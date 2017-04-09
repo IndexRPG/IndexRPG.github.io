@@ -1,13 +1,11 @@
-<div id="comments" class="comments-area">
-	<div class="showDisqus">Show Comments</div>
-	<div id="disqus_thread"></div>
-</div>
+<button class="show-comments">Show Comments</button>
+<div id="disqus_thread"></div>
 
 <script type="text/javascript">
 $j=jQuery.noConflict();
 
 $j(document).ready(function() {
-	$j('.showDisqus').on('click', function(){   // click event of the show comments button
+	$j('.show-comments').on('click', function(){   // click event of the show comments button
 		$j.ajax({
 	         type: "GET",
 	         url: "//indexrpg.disqus.com/embed.js",
