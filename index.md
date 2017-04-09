@@ -109,4 +109,4 @@ Long, single-line code blocks should not wrap. They should horizontally scroll i
 The final element.
 ```
 
--{% if page.comments %} {% include disqus.html %} {% endif %}
+{% if page.comments %} {% include disqus.html %} {% endif %}
