@@ -109,9 +109,4 @@ Long, single-line code blocks should not wrap. They should horizontally scroll i
 The final element.
 ```
 
-$('.show-comments').on('click', function() {
-    $.ajaxSetup({cache:true});
-    $.getScript('http://indexrpg.disqus.com/embed.js');
-    $.ajaxSetup({cache:false});
-    $(this).remove();
-});
+-{% if page.comments %} {% include disqus.html %} {% endif %}
