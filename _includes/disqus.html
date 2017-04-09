@@ -1,10 +1,16 @@
-<button class="show-comments" data-disqus-url="REPLACE_WITH_DISQUS_THREAD_URL">Show Comments</button>
+<button class="show-comments">Show Comments</button>
 <div id="disqus_thread"></div>
 <script type="text/javascript">
-+$('.show-comments').on('click', function() {
- +    $.ajaxSetup({cache:true});
- +    $.getScript('http://indexrpg.disqus.com/embed.js');
- +    $.ajaxSetup({cache:false});
- +    $(this).remove();
- +});
+// Requires jQuery of course.
+$(document).ready(function() {
+    $('.show-comments').on('click', function(){
+          $.ajax({
+                  type: "GET",
+                  url: "http://indexrpg.disqus.com/embed.js",
+                  dataType: "script",
+                  cache: true
+          });
+          $(this).fadeOut();
+    });
+});
 </script>
