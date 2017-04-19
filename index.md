@@ -17,34 +17,33 @@ Something interesting about yourself.
 ```
 
 Please choose from one or more of the following roles:
-```
-[Dev Team] (Leader: tsuneko)
+
+__[Dev Team]__ (Leader: tsuneko)
 Shader Artist: Shader / Effect Programming (OpenGL Shader Language), also need to be familiar with the Love3D library and Love2D engine (or at least learning it)
 GUI Dev: Work with GUI artist to create an amazing animated GUI, also need to be familiar with the Love2D engine.
 Web Dev: Knowledge of html/css/mkd, we're currently using github pages (jekyll)
 
-[Story Team] (Leader: Clueless)
+__[Story Team]__ (Leader: Clueless)
 Game Writer: Imagination
 Level Designer: Imagination, but keep things simple or rip devs
 
-[2D Art Team] (Leader: Clueless)
+__[2D Art Team]__ (Leader: Clueless)
 Sprite Artist: Imagination
 GUI Artist: GUI drawing skills, 2D animation skils
 Concept Artist: Lots of Imagination
 
-[3D Art Team] (Leader: tsuneko for now)
+__[3D Art Team]__ (Leader: tsuneko for now)
 3D Modeler: Use MagicaVoxel program to create simple 3D models
 (Not Looking For Yet) Effect Artist
 
-[Motion Team] (Leader: tsuneko for now)
+__[Motion Team]__ (Leader: tsuneko for now)
 3D Animator: Use blender 2.78 to animate a player skeleton. As we progress there will be more things to animate.
 
-[Music Team]
+__[Music Team]__
 (Not looking for yet) Composer
 
-[Testing Team] (Leader: Muffin)
+__Testing Team]__ (Leader: Muffin)
 (Not looking for yet) Game Tester
-```
 
 ## The IndexRPG Team
 
@@ -54,7 +53,7 @@ This is based off the current contributions.
 Project Leader: tsuneko
 
 [Dev Team]
-Game Dev + Shader Dev: tsuneko
+Game Dev + Shader Artist: tsuneko
 Game Dev: JoKing
 
 [Story Team]
@@ -73,7 +72,7 @@ Sprite Artist: Clueless
 3D Animator: tsuneko
 
 [Testing Team]
-Testing Leader: Muffin
+Game Tester: Muffin
 ```
 
 {% if page.comments %} {% include disqus.html %} {% endif %}
