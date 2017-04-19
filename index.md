@@ -42,37 +42,15 @@ __[Motion Team]__ (Leader: tsuneko for now)
 __[Music Team]__
 (Not looking for yet) Composer
 
-__Testing Team]__ (Leader: Muffin)
+__[Testing Team]__ (Leader: Muffin)
 (Not looking for yet) Game Tester
 
 ## The IndexRPG Team
 
-This is based off the current contributions.
-
-```
-Project Leader: tsuneko
-
-[Dev Team]
-Game Dev + Shader Artist: tsuneko
-Game Dev: JoKing
-
-[Story Team]
-Game Writer: Clueless
-Assistant Game Writer: tsuneko
-
-[2D Art Team]
-Sprite Artist: Clueless
-
-[3D Art Team]
-3D Modeler: tsuneko
-3D Modeler: JoKing
-3D Modeler: Clueless
-
-[Motion Team]
-3D Animator: tsuneko
-
-[Testing Team]
-Game Tester: Muffin
-```
+We're all university students.
+__tsuneko__: Project leader, basically does 99% of the work here. Game Dev, Shader Artist, 3D Modeler, 3D Animator.
+__JoKing__: Game Dev, 3D Modeler, should get a lot more involved once tsuneko stops obsessing over the visuals and works on framework.
+__Clueless__: Game Writer, Sprite Artist, 3D Modeler, should be our main artist :]
+__Muffin__: Another amazing artist, but doesn't do anything. Game Tester.
 
 {% if page.comments %} {% include disqus.html %} {% endif %}
